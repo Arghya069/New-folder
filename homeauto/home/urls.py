@@ -9,4 +9,5 @@ urlpatterns = [
     path('D/<str:pk>',views.b),
     path('E/<str:pk>',views.C),
     path('F/<str:pk>',views.c),
+    path('datas/<str:pk>',views.Ldata)
 ]
